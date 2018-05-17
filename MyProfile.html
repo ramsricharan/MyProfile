@@ -3,7 +3,27 @@
     	<title>Ram's Profile</title>
     </head>
 
+
     <style type="text/css">
+
+
+	    body {
+	    background-color: #f2f2f2;
+		}
+
+		.noUnderline{
+			text-decoration: none;
+			color: black;
+		}
+
+		a:hover{
+			color: blue;
+			text-decoration: underline;
+		}
+
+		a {
+    		color: #03af48;
+		}
 
     	.nameLabel {
        		color: #03af48;
@@ -29,28 +49,64 @@
     		margin-top: 3px;
     		margin-bottom: -12px;
     		font-weight: bold;
-     		text-shadow: 2px 2px 2px #04ce55;
     		font-size: 20px;
     	}
+
+
+
+    	#educationTable {
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		#educationTable td, #educationTable th {
+		    border: 1px solid #ddd;
+		    padding: 8px;
+		}
+
+		#educationTable tr:nth-child(even){background-color: #ffffff;}
+
+
+		#educationTable th {
+		    padding-top: 12px;
+		    padding-bottom: 12px;
+		    text-align: left;
+		    background-color: #4CAF50;
+		    color: white;
+		}
+
 
     </style>
 
 
+
+
+
     <body>
-			<img src = "https://media.licdn.com/dms/image/C4D03AQFUYS8qvU248g/profile-displayphoto-shrink_200_200/0?e=1529211600&v=beta&t=eJVXCyZTrherDG0ap4YxrryeGNBSn8rqPtb_GIorRkY"
-			width = "300" align = "right">
+
 
 		<p class="nameLabel"> Nagesa Ram Sri Charan Taduvai </p>
+
+		<img src = "https://media.licdn.com/dms/image/C4D03AQFUYS8qvU248g/profile-displayphoto-shrink_200_200/0?e=1529211600&v=beta&t=eJVXCyZTrherDG0ap4YxrryeGNBSn8rqPtb_GIorRkY"
+			width = "270" align = "right">
 		
+		<ul>
 			<p> 229 Ashworth Pl, <br> 
 				Apartment 2, <br>
 				Syracuse, <br> 
 				New York, 13210 <br>
-				Ph no: 315-450-8625 <br>
-				Email : ramsricharan@gmail.com
+				<b>Ph no :</b> 315-450-8625 <br>
+				<b>Email :</b> ramsricharan@gmail.com
+				<br>
+				<a href="https://www.linkedin.com/in/ramsricharan">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/291px-LinkedIn_Logo.svg.png"  width="70" align="left">
+				</a>
+			</img>
 			</p>
-			
-			<p> Go to: 
+			<br>
+
+			<b> Go to: </b>
 				<ul>
 					<li><a href = "#edu"> Education</a> </li>
 					<li><a href = "#wrk"> Work Experience </a> </li>
@@ -58,11 +114,14 @@
 					<li><a href = "#prj"> Projects </a></li>
 					<li><a href = "#hbs"> Hobbies </a></li>
 				</ul>
-			</p>
+		</ul>
+
+
+
 	<hr>
 		
 		<p class="heading" id="edu"> Education </p>
-		<table>
+		<table id="educationTable">
 			<thead>
 				<tr><h2>
 					<th> Sno </th>
@@ -83,7 +142,7 @@
 			
 				<tr>
 					<td> 2 </td>
-					<td> <a href = "http://srichaitanya.net/"> Sri Chaitanya College </a> </td>
+					<td> <a href = "http://srichaitanya.net/" class="noUnderline"> Sri Chaitanya College </a> </td>
 					<td> Maths Physics Chemistry </td>
 					<td> 2010 - 2012 </td>
 					<td> 91% </td>
@@ -91,118 +150,229 @@
 				
 				<tr>
 					<td> 3 </td>
-					<td> <a href = "http://anurag.edu.in/"> Anurag Group of Institutions  </a></td>
-					<td> Bachelor's in Electronic & <br>Communication Engineering</td>
+					<td> <a href = "http://anurag.edu.in/" class="noUnderline"> Anurag Group of Institutions  </a></td>
+					<td> Bachelor's in Electronic & Communication Engineering</td>
 					<td> 2014 - 2016 </td>
 					<td> 72% </td>
 				</tr>
 		
 				<tr>
 					<td> 4 </td>
-					<td> <a href = "https://www.syracuse.edu/" >Syracuse University</a></td>
+					<td> <a href = "https://www.syracuse.edu/" class="noUnderline" >Syracuse University</a></td>
 					<td> Master's in Computer Engineering</td>
 					<td> 2016 - 2018 </td>
 					<td> 3.367 </td>
 				</tr>
 		
 		</table>
-		
+	
+
+
+
+
+    <br>
 	<hr>
 		<p class="heading" id="wrk"> Work Experience </p>
-		<p>	<b>Amazon Development Center, Hyderabad, India.</b> <br>
-					Customer Service Agent, May 2016 - August 2016
-				<ul>
-					<li> Resolved both billing and technical issues faced 
-							by the customers shopping on <a href = "https://www.amazon.com/"> Amazon.com</a> </li>
-					<li> Improved my teamwork and problem solving skills during this time.</li>
-				</ul>
-		</p>
+		<ul>
+			<p class="subheading">	Amazon Development Center, Hyderabad, India. </p>
+
+			 <p>
+					<b> Customer Service Representative, May 2016 - August 2016 </b>
+					<ul>
+						<li> Resolved both billing and technical issues faced 
+								by the customers shopping on <a href = "https://www.amazon.com/"> Amazon.com</a> </li>
+						<li> Improved my teamwork and problem solving skills during this time.</li>
+					</ul>
+			</p>
+		</ul>
+
 		
+
+
+
+
 	<hr>
 		<p class="heading" id="prg"> Programming Skills </p>
 
-		<p> I have experience in most of the popular programming languages and also
-		    did couple of personal projects in most of them. The following is the
-			list of all the programming languages that I know.
-		</p>
-		
 		<ul>
-			<li> C </li>
-			<li> C++ </li>
-			<li> C# </li>
-			<li> HTML</li>
-			<li> PHP </li>
-			<li> CSS </li>
-			<li> SQL </li>
-			<li> MySQL </li>
-			<li> Java </li>
-			<li> Swift </li>
+			<p> I have experience in most of the popular programming languages and also
+			    did couple of personal projects in most of them. The following is the
+				list of all the programming languages that I know.
+			</p>
+			
+			<ul>
+				<li> C </li>
+				<li> C++ </li>
+				<li> C# </li>
+				<li> HTML</li>
+				<li> PHP </li>
+				<li> CSS </li>
+				<li> SQL </li>
+				<li> MySQL </li>
+				<li> Java </li>
+				<li> Swift </li>
+			</ul>
 		</ul>
+
 	
+
+
+
+
 	<hr> 
 		<p class="heading" id="prj">  Projects </p>
 
 			<ul>
 			<p class="subheading"> QR Attendance </p>
 				<ul>
+					<iframe width="280" height="160" src="https://www.youtube.com/embed/ttO0YJeC_aI" frameborder="0" allowfullscreen align="right" ></iframe>
 
-					<iframe width="280" height="160" src="https://www.youtube.com/embed/8fwOLG_gG5U" frameborder="0" allowfullscreen align="right" ></iframe>
+					<p> <b> Project Type:</b> Academic <br>
+					    <b> Platform:</b> iOS <br>
+					    <b> Language:</b> Swift 4 <br>
+					    <b> IDE:</b> XCode <br>
+					</p>
 
-				<p> <b> Project Type:</b> Academic <br>
-				    <b> Platform:</b> iOS <br>
-				    <b> Language:</b> Swift 4 <br>
-				    <b> IDE:</b> XCode <br>
-				</p>
+					<li> Developed this app for the tutors to take the attendance of the class fast and efficiently. It typically takes around 5 - 10 minutes to take the attendance of a class, but with this app attendance of entire class can be marked in just under 5 seconds. </li>
+					<li> Implemented QR Code scanning and generation using AVFoundation Framework. And used Location services to check if student is present inside the class.</li>
+					<li> Used Firebase for authentication, save app data and also to store images.</li>
 
-				<li> Developed this app for the tutors to take the attendance of the class fast and efficiently. It typically takes around 5 - 10 minutes to take the attendance of a class, but with this app attendance of entire class can be marked in just under 5 seconds. </li>
+				</ul>
 
-				<li> Implemented QR Code scanning and generation using AVFoundation Framework. And used Location services to check if student is present inside the class.</li>
+			<br>
+			<hr>
 
-				<li> Used Firebase for authentication, save app data and also to store images.</li>
+			<p class="subheading"> ShowTime </p>
+				<ul>
+					<iframe width="280" height="160" src="https://www.youtube.com/embed/NcVGLr4Sb5I" frameborder="0" allowfullscreen align="right" ></iframe>
 
-				
+					<p> <b> Project Type:</b> Academic <br>
+					    <b> Platform:</b> iOS <br>
+					    <b> Language:</b> Swift 4 <br>
+					    <b> IDE:</b> XCode <br>
+					</p>
+
+					<li> Developed this app to provide information regarding Popular Movies, New Releases and Upcoming Movies. </li>
+					<li> Used tmdb API to get the required movie data in the form of JSON objects.</li>
+					<li> Used Firebase for user authentication and also to save the favorite movie details.</li>
+				</ul>
+
+			<br>
+			<hr>
+
+			<p class="subheading"> Classbooks </p>
+				<ul>
+
+					<p> <b> Project Type:</b> Personal <br>
+					    <b> Platform:</b> Android <br>
+					    <b> Language:</b> Java <br>
+					    <b> IDE:</b> Android Studio <br>
+					</p>
+
+
+					<li> Developed this app for the tutors and students to share photos, videos and other useful information regarding the class. </li>
+					<li> Provided tutors the power to control the type of posts a student can post in the class.</li>
+					<li> Used Firebase for user Authentication, saving app data and to store media files. </li>
+				</ul>
+
+			<br>
+			<hr>
+			<p class="subheading"> School Diaries </p>
+				<ul>
+
+				<iframe width="280" height="160" src="https://www.youtube.com/embed/kkd5DLo274I" frameborder="0" allowfullscreen align="right" ></iframe>
+
+
+					<p> <b> Project Type:</b> Academic <br>
+					    <b> Platform:</b> Android <br>
+					    <b> Language:</b> Java <br>
+					    <b> IDE:</b> Android Studio <br>
+					</p>
+
+					<li> It is a parent-teacher communication Android app developed for the parents of kindergarten kids.</li>
+
+					<li> Helps parents to stay connected with their kid's activities at school anywhere from the world with this app. </li> 
+
+					<li> Tutor uses this app to check-in and check-out the kids. And also, to record the activities done by each kid on any given day. </li>
+
+					<li> Used Firebase for use authentication, saving the data in database and to store the media files. </li>
 
 				</ul>
 
 
 			<br>
+			<hr>
+			<p class="subheading"> Weather Watch </p>
+				<ul>
+
+					<p> <b> Project Type:</b> Personal <br>
+					    <b> Platform:</b> Android <br>
+					    <b> Language:</b> Java <br>
+					    <b> IDE:</b> Android Studio <br>
+					</p>
+
+				 	<li> This app shows the current time and date. </li>
+
+					<li>It shows the local weather details using the user's current GPS location. I used the "Open Weather Maps" API to get the local weather details. </li>
+
+					<li>Implemented day/night mode feature which dims the screen during nights to make room dark and maximizes the brightness during the day for good visibility. </li>
+
+					<li> It also changes the background screen based on the day/nights. </li>
+
+					<li> It also animates different weather conditions. For instance, if it is raining outside, then the rain animation appears inside the app's background as well. </li>
+
+				</ul>
 
 
+			<br>
+			<hr>
+			<p class="subheading">  BillSplit Calculator </p>
+				<ul>
+
+					<p> <b> Project Type:</b> Personal <br>
+					    <b> Platform:</b> Windows <br>
+					    <b> Language:</b> C++ / C# <br>
+					    <b> IDE:</b> Visual Studio <br>
+					</p>
+
+				 	<li> Created this application to split a bill (Grocery bill) with multiple items and to provide amount spent by each person in that bill. </li>
+
+				 	<li> This application was initially Developed as a Console application using C++ and later recreated a windows form application using C#. </li>
+
+					<li> Also shared this application with 2 other friends to help them splitting their bills faster and easier. </li>
+
+				</ul>
+
+		</ul>
 
 
-
-
-			<b>Course Projects:</b>
-				<li>Created a database to maintain the information of a University.</li>
-				<li>Developed “Remote Dependency Analyser” using C++ programming language. 
-				It publishes a webpage 	which has the information about the all its dependencies 
-				and the code for each file given to it.
-				</li>
-				<li>Developed “Remote Test Harness system” using C# programming language. 
-				Its conducts tests on the given file with the existing project files present 
-				on a Remote Repository.
-				</li>
-
-				<br>
-
-			<b>Personal Projects:</b>
-				<li>Created a Windows form application using C++ called Split Calculator 
-				for my room. We use this application to calculate the share of each person 
-				in the grocery bill.
-				</li>
-				<li>Currently developing a Website which suggests all the recipes that could 
-				be made using only those ingredients you prefer to be in that dish.
-				</li>
-			</ul>
 	
 	<hr>
 		<p class="heading" id="hbs">  My Personal hobbies </p>
 
-		<p> Travelling is my passion. I love to capture the beauty of the place in my camera. I made couple of travel videos
-			and also recently started a travel vlog in YouTube.
-		</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/8fwOLG_gG5U" frameborder="0" allowfullscreen ></iframe>
+		<ul>
 
-		<p><a href = "#top"> Go to Top</p>
+			<li> I play piano in my free time. I try to create new tunes on my own and also try to recreate my favorite OST's.</li>
+			<li>Travelling is my passion. I love to capture the beauty of the place in my camera. I made couple of travel videos and also recently started a travel vlog in YouTube. </li>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/8fwOLG_gG5U" frameborder="0" allowfullscreen ></iframe>
+			
+		</ul>
+
+
+
+	<p><a href = "#top"> <b> Go to Top </b></a> </p>
+
+
+
+	<br>
+	<br>
+	<p align="center"> Copyright © 2018 Ram Sri Charan. All rights reserved.</p>
+
+
+
 	</body>
 </html>
+
+
+
