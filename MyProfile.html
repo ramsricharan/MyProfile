@@ -2,11 +2,45 @@
 	<head>
     	<title>Ram's Profile</title>
     </head>
+
+    <style type="text/css">
+
+    	.nameLabel {
+       		color: #03af48;
+    		margin-top: 3px;
+    		margin-bottom: 1px;
+    		font-weight: bold;
+     		text-shadow: 2px 2px 2px #04ce55;
+    		font-size: 70px;
+    		text-align: center;
+    	}
+
+    	.heading {
+    		color: #03af48;
+    		margin-top: 3px;
+    		margin-bottom: 1px;
+    		font-weight: bold;
+     		text-shadow: 2px 2px 2px #04ce55;
+    		font-size: 40px;
+    	}
+    	
+    	.subheading {
+       		color: #03af48;
+    		margin-top: 3px;
+    		margin-bottom: -12px;
+    		font-weight: bold;
+     		text-shadow: 2px 2px 2px #04ce55;
+    		font-size: 20px;
+    	}
+
+    </style>
+
+
     <body>
-			<img src = "https://media.licdn.com/dms/image/C4D03AQFUYS8qvU248g/profile-displayphoto-shrink_200_200/0?e=1529211600&v=beta&t=eJVXCyZTrherDG0ap4YxrryeGNBSn8rqPtb_GIorRkY" 
+			<img src = "https://media.licdn.com/dms/image/C4D03AQFUYS8qvU248g/profile-displayphoto-shrink_200_200/0?e=1529211600&v=beta&t=eJVXCyZTrherDG0ap4YxrryeGNBSn8rqPtb_GIorRkY"
 			width = "300" align = "right">
 
-		<h1 > Nagesa Ram Sri Charan Taduvai </h1>
+		<p class="nameLabel"> Nagesa Ram Sri Charan Taduvai </p>
 		
 			<p> 229 Ashworth Pl, <br> 
 				Apartment 2, <br>
@@ -27,13 +61,13 @@
 			</p>
 	<hr>
 		
-		<h2 id="edu"> <u>Education</u> </h2>
+		<p class="heading" id="edu"> Education </p>
 		<table>
 			<thead>
 				<tr><h2>
 					<th> Sno </th>
 					<th> School Name </th>
-					<th> Major </th>
+					<th> Degree </th>
 					<th> Period </th>
 					<th> Grade </th>
 				</tr>
@@ -42,7 +76,7 @@
 				<tr>
 					<td> 1 </td>
 					<td> Siddhartha School </td>
-					<td> High School </td>
+					<td> School </td>
 					<td> 2003 - 2010 </td>
 					<td> 90% </td>
 				</tr>
@@ -68,13 +102,13 @@
 					<td> <a href = "https://www.syracuse.edu/" >Syracuse University</a></td>
 					<td> Master's in Computer Engineering</td>
 					<td> 2016 - 2018 </td>
-					<td> 3.30 </td>
+					<td> 3.367 </td>
 				</tr>
 		
 		</table>
 		
 	<hr>
-		<h2 id = "wrk"> <u>Work Experience</u> </h2>
+		<p class="heading" id="wrk"> Work Experience </p>
 		<p>	<b>Amazon Development Center, Hyderabad, India.</b> <br>
 					Customer Service Agent, May 2016 - August 2016
 				<ul>
@@ -85,7 +119,8 @@
 		</p>
 		
 	<hr>
-		<h2 id= "prg">  <u> Programming Skills</u> </h2>
+		<p class="heading" id="prg"> Programming Skills </p>
+
 		<p> I have experience in most of the popular programming languages and also
 		    did couple of personal projects in most of them. The following is the
 			list of all the programming languages that I know.
@@ -99,11 +134,44 @@
 			<li> PHP </li>
 			<li> CSS </li>
 			<li> SQL </li>
+			<li> MySQL </li>
+			<li> Java </li>
+			<li> Swift </li>
 		</ul>
 	
 	<hr> 
-		<h2 id= "prj"> <u>Projects</u> </h2>
+		<p class="heading" id="prj">  Projects </p>
+
 			<ul>
+			<p class="subheading"> QR Attendance </p>
+				<ul>
+
+					<iframe width="280" height="160" src="https://www.youtube.com/embed/8fwOLG_gG5U" frameborder="0" allowfullscreen align="right" ></iframe>
+
+				<p> <b> Project Type:</b> Academic <br>
+				    <b> Platform:</b> iOS <br>
+				    <b> Language:</b> Swift 4 <br>
+				    <b> IDE:</b> XCode <br>
+				</p>
+
+				<li> Developed this app for the tutors to take the attendance of the class fast and efficiently. It typically takes around 5 - 10 minutes to take the attendance of a class, but with this app attendance of entire class can be marked in just under 5 seconds. </li>
+
+				<li> Implemented QR Code scanning and generation using AVFoundation Framework. And used Location services to check if student is present inside the class.</li>
+
+				<li> Used Firebase for authentication, save app data and also to store images.</li>
+
+				
+
+				</ul>
+
+
+			<br>
+
+
+
+
+
+
 			<b>Course Projects:</b>
 				<li>Created a database to maintain the information of a University.</li>
 				<li>Developed “Remote Dependency Analyser” using C++ programming language. 
@@ -114,7 +182,10 @@
 				Its conducts tests on the given file with the existing project files present 
 				on a Remote Repository.
 				</li>
-			<b>My Projects:</b>
+
+				<br>
+
+			<b>Personal Projects:</b>
 				<li>Created a Windows form application using C++ called Split Calculator 
 				for my room. We use this application to calculate the share of each person 
 				in the grocery bill.
@@ -125,8 +196,9 @@
 			</ul>
 	
 	<hr>
-		<h2 id = "hbs"> <u>My Personal hobbies</u> </h2>
-		<p> Travel is my passion. I love to capture the beauty of the place in my camera. I made couple of travel videos
+		<p class="heading" id="hbs">  My Personal hobbies </p>
+
+		<p> Travelling is my passion. I love to capture the beauty of the place in my camera. I made couple of travel videos
 			and also recently started a travel vlog in YouTube.
 		</p>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/8fwOLG_gG5U" frameborder="0" allowfullscreen ></iframe>
