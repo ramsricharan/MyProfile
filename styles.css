@@ -1,5 +1,4 @@
-root:{
-/*    --myGreen: #03af48;*/
+:root{
     --myGreen: #4CAF50;
 }
 
@@ -173,6 +172,7 @@ a{
     font-weight: bold;
     text-shadow: 2px 2px 2px #04ce55;
     font-size: calc(100% + 2vw);
+    text-decoration: underline;
 }
 
 .subheading {
