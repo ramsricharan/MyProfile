@@ -33,7 +33,7 @@ a{
 }
 
 .small-text{
-    font-size: 20;
+    font-size: 20px;
 }
 
 
@@ -65,7 +65,7 @@ a{
     background: #FFFFFF;
     border-radius: 15px;
     box-shadow: 2px 5px 3px #888888;
-    padding: 10;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -79,7 +79,7 @@ a{
 
 #intro-column-flex{
     width: 70%;
-    padding-left: 20;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,9 +87,9 @@ a{
 
 
 #link-logo{
-    width: 70;
+    width: 70px;
     align: left;
-    margin-right: 10;
+    margin-right: 10px;
     transition: transform .2s;
 }
 
